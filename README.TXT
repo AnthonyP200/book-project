@@ -29,7 +29,34 @@ Questions:
 (34 != 33) && ! false=true
 16. (a && b) || (!a && !b)
 17.(33 != 32) && ! false
-18.
-19. 
 20. 12cat
    cat12
+21. Because the values of the objects it created are 0.
+23. You would need to call the method 60 times, or you could call the setTime method and set the minutes to 60.
+24. NumberDisplay digit = new NumberDisplay(10);
+25. Rectangle window = new Rectangle(12, 10)
+26. The second constructor allows you to create a clock display with you own limits for the hours and minutes.
+It does this by adding parameters.
+27. The second constructor has parameters while the first doesn't. 
+The second doesn't have the updateDisplay method 
+because it has the setTime display which has the updateDisplay method in it.
+28.
+p1.print("File", True);
+p1.getStatus(1);
+29. Triangles, squares, and circles.
+30.
+roof = new Triangle();
+roof.changeSize(60, 180);
+roof.moveHorizontal(20);
+roof.moveVertical(-60);
+roof.makeVisible();
+roof.changeColor("black");
+roof.changeColor("green");
+31. Yes.
+32. 2.
+33. It accepts negative numbers.
+34. Any integer ranging from -4 to 4.
+35. Any integer from 0 to |m| - 1 or 0 to -(|m| - 1).
+37. I found that changing the values to 1 through 12 was easier and better, 
+because with the other option you're only changing the display, the front, 
+however with the first option you're changing the back end of the clock.
